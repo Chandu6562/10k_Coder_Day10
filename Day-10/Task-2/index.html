@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            
+            width: 300px;
+            height: 200px;
+            background-color: aquamarine;
+            padding: 30px 0px 0px 30px;
+            border-radius: 10px;
+        }
+        h2{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Validation using Pattern</h2>
+<div class="main">
+<form >
+    <label for="">Email:</label><br>
+        <input type="text" pattern="[a-z\d]+@(gmail|outlook|yahoo)+\.(com|in|gov|org|edu)" required>
+        <input type="submit"><br>
+        <label for="">Password:</label><br>
+        <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[~!@#$%^&*]).{8,16}" required>
+        <input type="submit"><br>
+  <label for="date">Enter date:</label><br>
+  <input
+    type="text"
+    id="date"
+    name="date"
+    placeholder="DD-MM-YYYY"
+    required
+    pattern="^(?!(29-02-\d{4})$)(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}$"/>
+  <input type="submit" value="Submit" />
+</form>
+</div>
+
+</body>
+</html>

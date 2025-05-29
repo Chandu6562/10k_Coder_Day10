@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: RGB(223, 230, 255);
+    height: 130px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+.heading1{
+    color: blue;
+}
+
+fieldset{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.forms{
+    padding: 10px;
+}
+input{
+    margin: 10px;
+    margin-right: 30px;
+}
+
+select{
+    margin: 10px;
+    margin-right: 30px;
+}
+
+textarea{
+    margin-right: 30px;
+}
+
+legend{
+    background-color: RGB(46, 126, 183);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.captcha{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 20px 40%;
+}
+
+.captcha-btn{
+    margin: -5px 0px 0px 0px;
+    background-color: RGB(252, 88, 117);
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: RGB(154, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
